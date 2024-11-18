@@ -1,132 +1,67 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aprenda Inglês</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: #1e3a8a; /* Azul escuro elegante */
-            color: #f1f5f9; /* Texto branco suave */
-            margin: 0;
-            padding: 0;
-            line-height: 1.6;
-        }
-
-        header {
-            background-color: #2563eb; /* Azul vibrante */
-            color: white;
-            padding: 1.5rem 0;
-            text-align: center;
-            font-size: 2rem;
-            font-weight: bold;
-            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-        }
-
-        main {
-            padding: 2rem;
-            max-width: 900px;
-            margin: 0 auto;
-        }
-
-        .section-title {
-            font-size: 1.8rem;
-            color: #93c5fd;
-            margin-top: 2rem;
-            margin-bottom: 1rem;
-            border-bottom: 2px solid #3b82f6;
-            display: inline-block;
-        }
-
-        .info-box {
-            background-color: #2563eb;
-            border: 2px solid #1e40af;
-            padding: 1rem;
-            border-radius: 5px;
-            margin: 1.5rem 0;
-            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-        }
-
-        .info-box h3 {
-            margin-top: 0;
-            color: #93c5fd;
-        }
-
-        footer {
-            background-color: #1e40af; /* Azul ainda mais escuro */
-            color: #f1f5f9;
-            text-align: center;
-            padding: 1rem 0;
-            font-size: 0.9rem;
-            margin-top: 2rem;
-        }
-
-        a {
-            color: #93c5fd;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        ul {
-            list-style-type: square;
-            padding-left: 1.5rem;
-        }
-
-        .quote {
-            font-style: italic;
-            color: #dbeafe;
-            margin: 1.5rem 0;
-            text-align: center;
-            border-left: 4px solid #93c5fd;
-            padding-left: 1rem;
-        }
-    </style>
+    <title>Learn English Online</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        Aprenda Inglês com Estilo
+        <h1>Learn English Online</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#lessons">Lessons</a></li>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">About Us</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
-        <h1>Bem-vindo ao mundo do inglês!</h1>
-        <p>Aprender inglês não precisa ser chato. Descubra dicas, curiosidades e conteúdos que vão te ajudar a melhorar suas habilidades enquanto se diverte.</p>
-
-        <div class="section-title">Dicas de aprendizado</div>
-        <div class="info-box">
-            <h3>Por onde começar?</h3>
-            <p>
-                - Comece com o básico: aprenda frases comuns e vocabulário essencial.  
-                - Use aplicativos e plataformas como <a href="https://www.duolingo.com" target="_blank">Duolingo</a> ou <a href="https://www.busuu.com" target="_blank">Busuu</a>.  
-                - Assista a filmes e séries em inglês com legendas.
-            </p>
-        </div>
-
-        <div class="info-box">
-            <h3>Melhore sua pronúncia</h3>
-            <p>
-                - Pratique com nativos em plataformas como <a href="https://www.italki.com" target="_blank">italki</a>.  
-                - Grave sua voz lendo textos simples em inglês.  
-                - Escute podcasts como <i>"ESL Pod"</i> ou <i>"The English We Speak".</i>
-            </p>
-        </div>
-
-        <div class="quote">
-            "The limits of my language mean the limits of my world."  
-            <br>— Ludwig Wittgenstein
-        </div>
-
-        <div class="section-title">Links úteis</div>
-        <ul>
-            <li><a href="https://www.cambridgeenglish.org" target="_blank">Cambridge English</a></li>
-            <li><a href="https://www.oxfordlearnersdictionaries.com/" target="_blank">Dicionário Oxford</a></li>
-            <li><a href="https://www.bbc.co.uk/learningenglish" target="_blank">BBC Learning English</a></li>
-        </ul>
+        <section id="home">
+            <h2>Welcome to Learn English Online!</h2>
+            <p>Your journey to mastering English starts here.</p>
+        </section>
+        <section id="lessons">
+            <h2>Lessons</h2>
+            <ul>
+                <li><a href="#">Lesson 1: Basics of English</a></li>
+                <li><a href="#">Lesson 2: Common Phrases</a></li>
+                <li><a href="#">Lesson 3: Grammar Tips</a></li>
+            </ul>
+        </section>
+        <section id="resources">
+            <h2>Resources</h2>
+            <p>Explore these tools to enhance your learning:</p>
+            <ul>
+                <li><a href="https://www.duolingo.com" target="_blank">Duolingo</a></li>
+                <li><a href="https://www.grammarly.com" target="_blank">Grammarly</a></li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+        </section>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We are passionate about helping people learn English effectively and enjoyably.</p>
+        </section>
     </main>
     <footer>
-        © 2024 | Feito para quem ama aprender inglês.
+        <p>&copy; 2024 Learn English Online. All rights reserved.</p>
     </footer>
 </body>
 </html>
